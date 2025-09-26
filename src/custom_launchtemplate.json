@@ -1,0 +1,737 @@
+{
+  "data": {
+    "assets": [
+      {
+        "id": "123",
+        "creationDate": "2023-11-21T21:44:32.425Z",
+        "updateDate": "2023-11-21T21:44:32.425Z",
+        "metadata": [
+          {
+            "key": "title",
+            "value": "Sintel"
+          }
+        ],
+        "files": [
+          {
+            "id": "234",
+            "type": "VIDEO",
+            "url": "https://accurate-player-static.s3.eu-central-1.amazonaws.com/Sintel/sintel-2048-timecode-6ch.mp4",
+            "metadata": [
+              {
+                "key": "filename",
+                "value": "Sintel 2048p"
+              },
+              {
+                "key": "language",
+                "value": "en"
+              }
+            ]
+          },
+          {
+            "id": "567",
+            "url": "https://accurate-player-static.s3.eu-central-1.amazonaws.com/Sintel/audio/sintel_stereo.mp4",
+            "type": "AUDIO",
+            "metadata": [
+              {
+                "key": "filename",
+                "value": "Sintel (Stereo)"
+              }
+            ],
+            "container": {
+              "audioStreams": [
+                {
+                  "channels": 2
+                }
+              ]
+            }
+          },
+          {
+            "type": "SUBTITLE",
+            "url": "https://accurate-player-static.s3.eu-central-1.amazonaws.com/Sintel/subtitles/sintel_en.vtt",
+            "metadata": [
+              {
+                "key": "filename",
+                "value": "Sintel (English)"
+              }
+            ],
+            "container": {
+              "format": "vtt"
+            }
+          },
+          {
+            "type": "SPRITE_MAP",
+            "url": "https://accurate-player-static.s3.eu-central-1.amazonaws.com/Sintel/spritemap/sintel-2048-timecode-6ch.spritemap.jpg",
+            "manifest": {
+              "width": 240,
+              "height": 102,
+              "sprites": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "t": 6291600000
+                },
+                {
+                  "x": 240,
+                  "y": 0,
+                  "t": 18874800000
+                },
+                {
+                  "x": 480,
+                  "y": 0,
+                  "t": 31458000000
+                },
+                {
+                  "x": 720,
+                  "y": 0,
+                  "t": 44041200000
+                },
+                {
+                  "x": 960,
+                  "y": 0,
+                  "t": 56624400000
+                },
+                {
+                  "x": 1200,
+                  "y": 0,
+                  "t": 69207600000
+                },
+                {
+                  "x": 1440,
+                  "y": 0,
+                  "t": 81790800000
+                },
+                {
+                  "x": 0,
+                  "y": 102,
+                  "t": 94374000000
+                },
+                {
+                  "x": 240,
+                  "y": 102,
+                  "t": 106957200000
+                },
+                {
+                  "x": 480,
+                  "y": 102,
+                  "t": 119540400000
+                },
+                {
+                  "x": 720,
+                  "y": 102,
+                  "t": 132123600000
+                },
+                {
+                  "x": 960,
+                  "y": 102,
+                  "t": 144706800000
+                },
+                {
+                  "x": 1200,
+                  "y": 102,
+                  "t": 157290000000
+                },
+                {
+                  "x": 1440,
+                  "y": 102,
+                  "t": 169873200000
+                },
+                {
+                  "x": 0,
+                  "y": 204,
+                  "t": 182456400000
+                },
+                {
+                  "x": 240,
+                  "y": 204,
+                  "t": 195039600000
+                },
+                {
+                  "x": 480,
+                  "y": 204,
+                  "t": 207622800000
+                },
+                {
+                  "x": 720,
+                  "y": 204,
+                  "t": 220206000000
+                },
+                {
+                  "x": 960,
+                  "y": 204,
+                  "t": 232789200000
+                },
+                {
+                  "x": 1200,
+                  "y": 204,
+                  "t": 245372400000
+                },
+                {
+                  "x": 1440,
+                  "y": 204,
+                  "t": 257955600000
+                },
+                {
+                  "x": 0,
+                  "y": 306,
+                  "t": 270538800000
+                },
+                {
+                  "x": 240,
+                  "y": 306,
+                  "t": 283122000000
+                },
+                {
+                  "x": 480,
+                  "y": 306,
+                  "t": 295705200000
+                },
+                {
+                  "x": 720,
+                  "y": 306,
+                  "t": 308288400000
+                },
+                {
+                  "x": 960,
+                  "y": 306,
+                  "t": 320871600000
+                },
+                {
+                  "x": 1200,
+                  "y": 306,
+                  "t": 333454800000
+                },
+                {
+                  "x": 1440,
+                  "y": 306,
+                  "t": 346038000000
+                },
+                {
+                  "x": 0,
+                  "y": 408,
+                  "t": 358621200000
+                },
+                {
+                  "x": 240,
+                  "y": 408,
+                  "t": 371204400000
+                },
+                {
+                  "x": 480,
+                  "y": 408,
+                  "t": 383787600000
+                },
+                {
+                  "x": 720,
+                  "y": 408,
+                  "t": 396370800000
+                },
+                {
+                  "x": 960,
+                  "y": 408,
+                  "t": 408954000000
+                },
+                {
+                  "x": 1200,
+                  "y": 408,
+                  "t": 421537200000
+                },
+                {
+                  "x": 1440,
+                  "y": 408,
+                  "t": 434120400000
+                },
+                {
+                  "x": 0,
+                  "y": 510,
+                  "t": 446703600000
+                },
+                {
+                  "x": 240,
+                  "y": 510,
+                  "t": 459286800000
+                },
+                {
+                  "x": 480,
+                  "y": 510,
+                  "t": 471870000000
+                },
+                {
+                  "x": 720,
+                  "y": 510,
+                  "t": 484453200000
+                },
+                {
+                  "x": 960,
+                  "y": 510,
+                  "t": 497036400000
+                },
+                {
+                  "x": 1200,
+                  "y": 510,
+                  "t": 509619600000
+                },
+                {
+                  "x": 1440,
+                  "y": 510,
+                  "t": 522202800000
+                },
+                {
+                  "x": 0,
+                  "y": 612,
+                  "t": 534786000000
+                },
+                {
+                  "x": 240,
+                  "y": 612,
+                  "t": 547369200000
+                },
+                {
+                  "x": 480,
+                  "y": 612,
+                  "t": 559952400000
+                },
+                {
+                  "x": 720,
+                  "y": 612,
+                  "t": 572535600000
+                },
+                {
+                  "x": 960,
+                  "y": 612,
+                  "t": 585118800000
+                },
+                {
+                  "x": 1200,
+                  "y": 612,
+                  "t": 597702000000
+                },
+                {
+                  "x": 1440,
+                  "y": 612,
+                  "t": 610285200000
+                },
+                {
+                  "x": 0,
+                  "y": 714,
+                  "t": 622868400000
+                }
+              ]
+            }
+          },
+          {
+            "type": "WAVEFORM",
+            "url": "https://accurate-player-static.s3.eu-central-1.amazonaws.com/Sintel/waveforms/sintel-2048-timecode-6ch.dat",
+            "metadata": [
+              {
+                "key": "waveform:source_file_id",
+                "value": "234"
+              },
+              {
+                "key": "waveform:track",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "type": "WAVEFORM",
+            "url": "https://accurate-player-static.s3.eu-central-1.amazonaws.com/Sintel/waveforms/sintel-2048-timecode-stereo.dat",
+            "metadata": [
+              {
+                "key": "waveform:source_file_id",
+                "value": "567"
+              },
+              {
+                "key": "waveform:track",
+                "value": "0"
+              }
+            ]
+          }
+        ],
+        "markerGroups": [
+          {
+            "title": "Video QC",
+            "markerStyle": {
+              "backgroundColor": "var(--AP-TURQUOISE)"
+            },
+            "allowCreateTrack": true,
+            "markerTracks": [
+              {
+                "title": "Video Issues",
+                "markers": [
+                  {
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Artifact"
+                      }
+                    ],
+                    "start": {
+                      "frame": 3044,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 4145,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  },
+                  {
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Freeze frame"
+                      }
+                    ],
+                    "start": {
+                      "frame": 11570,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 11570,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Auto detected",
+                "markerStyle": {
+                  "backgroundColor": "var(--AP-SUCCESS)"
+                },
+                "readOnly": true,
+                "markers": [
+                  {
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Dragon"
+                      },
+                      {
+                        "key": "description",
+                        "value": "AI Generated Metadata: 76% certainty"
+                      }
+                    ],
+                    "start": {
+                      "frame": 13216,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 13371,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  },
+                  {
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Person"
+                      },
+                      {
+                        "key": "description",
+                        "value": "AI Generated Metadata: 87% certainty"
+                      }
+                    ],
+                    "start": {
+                      "frame": 2782,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 3525,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  },
+                  {
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "End credits"
+                      },
+                      {
+                        "key": "description",
+                        "value": "AI Generated Metadata: 100% certainty"
+                      }
+                    ],
+                    "start": {
+                      "frame": 17937,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 21311,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Audio QC",
+            "markerStyle": {
+              "backgroundColor": "var(--AP-TURQUOISE)"
+            },
+            "markerTracks": [
+              {
+                "title": "Audio Issues",
+                "markers": [
+                  {
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Distortion"
+                      }
+                    ],
+                    "start": {
+                      "frame": 1393,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 2163,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  },
+                  {
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Loudness issue"
+                      }
+                    ],
+                    "start": {
+                      "frame": 9187,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 11570,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Vionlabs Ad-Breaks",
+            "readOnly": true,
+            "markerTracks": [
+              {
+                "title": "Excellent",
+                "markerStyle": {
+                  "backgroundColor": "var(--AP-SUCCESS)"
+                },
+                "markers": [
+                  {
+                    "id": "1",
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Excellent #1"
+                      }
+                    ],
+                    "start": {
+                      "frame": 2476,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 2477,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  },
+                  {
+                    "id": "2",
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Excellent #2"
+                      }
+                    ],
+                    "start": {
+                      "frame": 10456,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 10457,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  },
+                  {
+                    "id": "3",
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Excellent #3"
+                      }
+                    ],
+                    "start": {
+                      "frame": 16295,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 16296,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  },
+                  {
+                    "id": "4",
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Excellent #4"
+                      }
+                    ],
+                    "start": {
+                      "frame": 17865,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 17866,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Good",
+                "markers": [
+                  {
+                    "id": "5",
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Good #1"
+                      }
+                    ],
+                    "start": {
+                      "frame": 4638,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 4638,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  },
+                  {
+                    "id": "6",
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Good #2"
+                      }
+                    ],
+                    "start": {
+                      "frame": 14725,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 14725,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Passable",
+                "markerStyle": {
+                  "backgroundColor": "var(--AP-WARNING)"
+                },
+                "markers": [
+                  {
+                    "id": "7",
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Passable #1"
+                      }
+                    ],
+                    "start": {
+                      "frame": 7503,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 7504,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  },
+                  {
+                    "id": "8",
+                    "metadata": [
+                      {
+                        "key": "name",
+                        "value": "Passable #2"
+                      }
+                    ],
+                    "start": {
+                      "frame": 12304,
+                      "numerator": 24,
+                      "denominator": 1
+                    },
+                    "end": {
+                      "frame": 12305,
+                      "numerator": 24,
+                      "denominator": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": {
+    "publish": {
+      "download": true
+    }
+  },
+  "settings": [
+    {
+      "$ref": "license.json"
+    },
+    {
+      "safeAreas": [
+        {
+          "name": "Codemill Safe area",
+          "url": "https://accurate-player-static.s3.eu-central-1.amazonaws.com/Sintel/256_109_cm.png",
+          "aspectRatio": "256:109"
+        }
+      ],
+      "overlays": [
+        {
+          "name": "Poster overlay",
+          "url": "https://accurate-player-static.s3.eu-central-1.amazonaws.com/Sintel/256_109_cm.png",
+          "aspectRatio": "256:109"
+        }
+      ],
+      "features": {
+        "videoContextMenu": false
+      }
+    }
+  ]
+}
