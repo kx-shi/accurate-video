@@ -39,12 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": {
-    "/s3": {
-      "target": "https://accurate-video.s3.eu-north-1.amazonaws.com",
-      "changeOrigin": true,
-      "pathRewrite": { "^/s3": "" }
-    }
   }
 }
