@@ -40,5 +40,11 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://apps.accurate.video/"
+  "proxy": {
+    "/s3": {
+      "target": "https://accurate-video.s3.eu-north-1.amazonaws.com",
+      "changeOrigin": true,
+      "pathRewrite": { "^/s3": "" }
+    }
+  }
 }

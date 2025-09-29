@@ -6,8 +6,10 @@ import axios from "axios";
 
 function App() {
   const openAccurateVideo = () => {
-    const launchTemplate = 'https://accurate-video.s3.eu-north-1.amazonaws.com/custom_launchtemplate.json'
-    window.open(`https://apps.accurate.video/launch/validate?launchTemplate=${launchTemplate}`, '_blank');
+    const licenseKey = '21A42B1E3745B8A8832230E8888804A0U60EBF1E05EA91A6A6ED0BBE9215D7F22';
+    const launchTemplate = 'https://accurate-video.s3.eu-north-1.amazonaws.com/test.json';
+    const url = `https://apps.accurate.video/launch/validate?launchTemplate=${launchTemplate}&licenseKey=${licenseKey}`;
+    window.open(url, '_blank');
   }
 
   return (
@@ -28,6 +30,7 @@ function App() {
         <button onClick={openAccurateVideo}>
           CLICK ME!
         </button>
+        <S3BucketList />
       </header>
     </div>
   );

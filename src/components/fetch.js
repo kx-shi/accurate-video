@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { XMLParser } from "fast-xml-parser";
 // https://multimedia-commons.s3.amazonaws.com/
 
 export default function S3BucketList() {
@@ -6,12 +7,20 @@ export default function S3BucketList() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  const openAccurateVideoTest = (launchTemplate) => {
+    const licenseKey = '21A42B1E3745B8A8832230E8888804A0U60EBF1E05EA91A6A6ED0BBE9215D7F22';
+    //const launchTemplate = 'https://accurate-video.s3.eu-north-1.amazonaws.com/test.json';
+    const url = `https://apps.accurate.video/launch/validate?launchTemplate=${launchTemplate}&licenseKey=${licenseKey}`;
+    window.open(url, '_blank');
+  }
+
   useEffect(() => {
     async function fetchBucketItems() {
       try {
         // Call S3 REST API directly
-        const response = await fetch(
-          "https://multimedia-commons.s3.amazonaws.com/?list-type=2&prefix=data/videos/mp4/&max-keys=10"
+        const response = await fetch(//"/s3/?list-type=2"
+          "https://accurate-video.s3.eu-north-1.amazonaws.com/?list-type=2"
+          //"https://multimedia-commons.s3.amazonaws.com/?list-type=2&prefix=data/videos/mp4/&max-keys=10"
         );
 
         if (!response.ok) {
@@ -19,19 +28,18 @@ export default function S3BucketList() {
         }
 
         const text = await response.text();
+        const items = [];
 
         // S3 returns XML, so we parse it
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(text, "application/xml");
         const contents = xmlDoc.getElementsByTagName("Contents");
 
-        const items = [];
         for (let i = 0; i < contents.length; i++) {
           const key = contents[i].getElementsByTagName("Key")[0].textContent;
-          const size = contents[i].getElementsByTagName("Size")[0].textContent;
-          items.push({ key, size });
+          const url = `https://accurate-video.s3.eu-north-1.amazonaws.com/${key}`
+          items.push({ key, url });
         }
-
         setObjects(items);
       } catch (err) {
         console.error("Error fetching bucket contents:", err);
@@ -56,10 +64,9 @@ export default function S3BucketList() {
         <ul className="space-y-2">
           {objects.map((item) => (
             <li key={item.key} className="p-2 rounded-lg shadow border bg-white">
-              <p className="font-mono break-all">{item.key}</p>
-              <p className="text-sm text-gray-600">
-                Size: {(item.size / 1024 / 1024).toFixed(2)} MB
-              </p>
+              <button onClick={() => openAccurateVideoTest(item.url)}>
+                {item.key}
+              </button>
             </li>
           ))}
         </ul>
