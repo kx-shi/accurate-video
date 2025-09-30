@@ -2,9 +2,9 @@
   "data": {
     "assets": [
       {
-        "id": "b69748c4-6357-465a-9fb9-0e31cb8cfa3b",
-        "creationDate": "2025-09-30T07:20:30.931663Z",
-        "updateDate": "2025-09-30T07:20:30.931663Z",
+        "id": "a11d339d-a12b-482e-82c1-865569237930",
+        "creationDate": "2025-09-30T23:18:02.453664Z",
+        "updateDate": "2025-09-30T23:18:02.453664Z",
         "metadata": [
           {
             "key": "title",
@@ -13,7 +13,7 @@
         ],
         "files": [
           {
-            "id": "8773ce2b-f95e-4fb4-8de2-269a89385593",
+            "id": "83736e60-460a-484a-80b1-0cb6db7cd42c",
             "type": "VIDEO",
             "url": "https://multimedia-commons.s3-us-west-2.amazonaws.com/data/videos/mp4/007/2fc/0072fc6d474cb389de31a5f24f76.mp4",
             "metadata": [
@@ -28,7 +28,7 @@
             ]
           },
           {
-            "id": "8335a679-8ab6-47c5-85d2-bea1679e4b4e",
+            "id": "fd97dc10-7971-4225-86d5-964fc7ba01bf",
             "type": "AUDIO",
             "url": "https://multimedia-commons.s3-us-west-2.amazonaws.com/data/videos/mp4/007/2fc/0072fc6d474cb389de31a5f24f76.mp4",
             "metadata": [
@@ -44,6 +44,34 @@
                 }
               ]
             }
+          },
+          {
+            "type": "WAVEFORM",
+            "url": "https://accurate-video.s3.eu-north-1.amazonaws.com/0072fc6d474cb389de31a5f24f76/0072fc6d474cb389de31a5f24f76.dat",
+            "metadata": [
+              {
+                "key": "waveform:source_file_id",
+                "value": "83736e60-460a-484a-80b1-0cb6db7cd42c"
+              },
+              {
+                "key": "waveform:track",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "type": "WAVEFORM",
+            "url": "https://accurate-video.s3.eu-north-1.amazonaws.com/0072fc6d474cb389de31a5f24f76/0072fc6d474cb389de31a5f24f76.dat",
+            "metadata": [
+              {
+                "key": "waveform:source_file_id",
+                "value": "fd97dc10-7971-4225-86d5-964fc7ba01bf"
+              },
+              {
+                "key": "waveform:track",
+                "value": "0"
+              }
+            ]
           }
         ]
       }

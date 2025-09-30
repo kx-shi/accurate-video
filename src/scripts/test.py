@@ -1,15 +1,17 @@
 import argparse
 import subprocess
 from pathlib import Path
+import shlex
 
 def generate_waveform_jpg(
         name
     ):
     
     audio_filepath = f"{name}.wav"
+
     output_filepath = f"{name}.dat"
 
-    folder_path = Path(__file__).resolve().parent.parent.parent / "public/wavfiles" # Var .wav-filerna finns
+    folder_path = Path(__file__).resolve().parent.parent.parent / "public/wavfiles"
     folder_path = folder_path.as_posix()
 
     # Build the command
@@ -21,6 +23,9 @@ def generate_waveform_jpg(
         "-i", audio_filepath,          # input file inside container (/tmp)
         "-o", output_filepath          # output file inside container (/tmp)
     ]
+    print(shlex.join(cmd))
+    return
+    
 
     # Run the command
     try:

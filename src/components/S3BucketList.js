@@ -57,7 +57,7 @@ export default function S3BucketList() {
   return (
     <div className="Bucketlist">
       <h2>Videos</h2>
-      <h3>Click on a video to open it in Accurate.Video</h3>
+      <h3>Click on a video title to open it in Accurate.Video</h3>
       {objects.length === 0 ? (
         <p>No objects found.</p>
       ) : (

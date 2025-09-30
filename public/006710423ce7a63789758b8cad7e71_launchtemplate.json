@@ -2,9 +2,9 @@
   "data": {
     "assets": [
       {
-        "id": "e6239435-b910-4b84-94cb-5178d9299030",
-        "creationDate": "2025-09-30T14:23:02.784793Z",
-        "updateDate": "2025-09-30T14:23:02.784793Z",
+        "id": "cdac4e06-1ce7-4050-a6b0-a93b4f525cfa",
+        "creationDate": "2025-09-30T23:17:20.253077Z",
+        "updateDate": "2025-09-30T23:17:20.253077Z",
         "metadata": [
           {
             "key": "title",
@@ -13,7 +13,7 @@
         ],
         "files": [
           {
-            "id": "2f084aaa-3bed-44cf-a225-4ac77c7628f2",
+            "id": "60398b28-6cd5-45f8-b464-275906ec627b",
             "type": "VIDEO",
             "url": "https://multimedia-commons.s3-us-west-2.amazonaws.com/data/videos/mp4/006/710/006710423ce7a63789758b8cad7e71.mp4",
             "metadata": [
@@ -28,7 +28,7 @@
             ]
           },
           {
-            "id": "42f6895c-9e46-4306-9013-00dcabd4a9d9",
+            "id": "9b6b186b-ba02-404f-93bf-228ec6d8f6cb",
             "type": "AUDIO",
             "url": "https://multimedia-commons.s3-us-west-2.amazonaws.com/data/videos/mp4/006/710/006710423ce7a63789758b8cad7e71.mp4",
             "metadata": [
@@ -51,7 +51,7 @@
             "metadata": [
               {
                 "key": "waveform:source_file_id",
-                "value": "2f084aaa-3bed-44cf-a225-4ac77c7628f2"
+                "value": "60398b28-6cd5-45f8-b464-275906ec627b"
               },
               {
                 "key": "waveform:track",
@@ -65,7 +65,7 @@
             "metadata": [
               {
                 "key": "waveform:source_file_id",
-                "value": "42f6895c-9e46-4306-9013-00dcabd4a9d9"
+                "value": "9b6b186b-ba02-404f-93bf-228ec6d8f6cb"
               },
               {
                 "key": "waveform:track",
