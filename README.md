@@ -1,8 +1,20 @@
 # accurate-video
+Enkel hemsida som listar filer. Klickar du på en fil öppnas den i Accurate.Video Validate.
 
+## Funktioner
+- Listar filer från en Amazon S3 Bucket
+- Visar metadata i form av titel och skapad datum
+- Visar waveform
+- `002d7deeeb4269e9c1960c1a7ce8.mp4` visar thumbnails
+- Uppdateras i realtid när nya objekt läggs upp i S3
+
+## Kom igång
 För att köra behövs npm installerat
 - Lokalisera till projektet
 - `npm start`
+
+___
+# Verktyg (minnesanteckningar)
 
 ## ffmpeg
 Skapa still frames
