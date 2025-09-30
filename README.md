@@ -1,5 +1,9 @@
 # accurate-video
 
+För att köra behövs npm installerat
+- Lokalisera till projektet
+- `npm start`
+
 ## ffmpeg
 Skapa still frames
 `ffmpeg -i {input_file_path} -vf fps=1/120 {output_file_path}`
