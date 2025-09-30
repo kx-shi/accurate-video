@@ -6,8 +6,7 @@ export default function S3BucketList() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    async function fetchBucketItems() {
+  const fetchFiles = async () => {
       try {
         // Call S3 REST API directly
         const response = await fetch(
@@ -40,9 +39,16 @@ export default function S3BucketList() {
       } finally {
         setLoading(false);
       }
-    }
+  };
 
-    fetchBucketItems();
+  useEffect(() => {
+    fetchFiles()
+
+    const ws = new WebSocket("wss://e480ofobbg.execute-api.eu-north-1.amazonaws.com/dev/");
+
+    ws.onmessage = (event) => { // ANtar att en trigger == ny fil
+        fetchFiles();
+    };
   }, []);
 
   if (loading) return <p>Loading bucket contents...</p>;
@@ -56,8 +62,8 @@ export default function S3BucketList() {
         <p>No objects found.</p>
       ) : (
         <div className="flexbox">
-            {objects.map((item) => (
-              <S3BucketItem item={item} />
+            {objects.map((item, index) => (
+              <S3BucketItem item={item} key={index} />
             ))}
         </div>
       )}
