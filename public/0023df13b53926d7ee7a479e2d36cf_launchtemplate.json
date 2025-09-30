@@ -1,0 +1,57 @@
+{
+  "data": {
+    "assets": [
+      {
+        "id": "f5596834-4ac0-4b16-b1a0-6ea6b40fbf77",
+        "creationDate": "2025-09-29T19:10:20.853227Z",
+        "updateDate": "2025-09-29T19:10:20.853227Z",
+        "metadata": [
+          {
+            "key": "title",
+            "value": "0023df13b53926d7ee7a479e2d36cf"
+          }
+        ],
+        "files": [
+          {
+            "id": "76f19ac1-c0da-49b1-a069-a5c21de23639",
+            "type": "VIDEO",
+            "url": "https://multimedia-commons.s3-us-west-2.amazonaws.com/data/videos/mp4/002/3df/0023df13b53926d7ee7a479e2d36cf.mp4",
+            "metadata": [
+              {
+                "key": "filename",
+                "value": "0023df13b53926d7ee7a479e2d36cf (Video)"
+              },
+              {
+                "key": "language",
+                "value": "en"
+              }
+            ]
+          },
+          {
+            "id": "068b527d-caad-499c-9454-3467b21a7fdb",
+            "type": "AUDIO",
+            "url": "https://multimedia-commons.s3-us-west-2.amazonaws.com/data/videos/mp4/002/3df/0023df13b53926d7ee7a479e2d36cf.mp4",
+            "metadata": [
+              {
+                "key": "filename",
+                "value": "0023df13b53926d7ee7a479e2d36cf (Audio)"
+              }
+            ],
+            "container": {
+              "audioStreams": [
+                {
+                  "channels": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": {
+    "publish": {
+      "download": true
+    }
+  }
+}

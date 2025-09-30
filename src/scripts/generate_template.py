@@ -11,7 +11,7 @@ def generate_launchtemplate(
         audio_channels
 ):
     
-    output_location = output_location or Path(__file__).resolve().parent
+    output_location = output_location or Path(__file__).resolve().parent.parent.parent  / "public"
 
     '''
     TODO: Generera .wav-file utifrån .mp4 och hämta waveform
@@ -63,6 +63,34 @@ def generate_launchtemplate(
                                     {"channels": audio_channels}
                                 ]
                             }
+                        },
+                        {
+                            "type": "WAVEFORM",
+                            "url": f"https://accurate-video.s3.eu-north-1.amazonaws.com/{title}/{title}.dat",
+                            "metadata": [
+                            {
+                                "key": "waveform:source_file_id",
+                                "value": video_id
+                            },
+                            {
+                                "key": "waveform:track",
+                                "value": "0"
+                            }
+                            ]
+                        },
+                        {
+                            "type": "WAVEFORM",
+                            "url": f"https://accurate-video.s3.eu-north-1.amazonaws.com/{title}/{title}.dat",
+                            "metadata": [
+                            {
+                                "key": "waveform:source_file_id",
+                                "value": audio_id
+                            },
+                            {
+                                "key": "waveform:track",
+                                "value": "0"
+                            }
+                            ]
                         }
                     ]
                 }
@@ -82,7 +110,7 @@ def generate_launchtemplate(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate launch template JSON file for Accurate.Video")
-    parser.add_argument("--video_url", type=str, default=Path(__file__).resolve().parent, help="URL to the video file (mp4)")
+    parser.add_argument("--video_url", type=str, default=None, help="URL to the video file (mp4)")
     parser.add_argument("--audio_channels", type=int, default=2, help="Number of audio channels")
     parser.add_argument("--output_location", type=str, default=None, help="Folder where output JSON should be saved.")
 

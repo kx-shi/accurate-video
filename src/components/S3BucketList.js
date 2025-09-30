@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import S3BucketItem from './S3BucketItem'
 
 export default function S3BucketList() {
@@ -25,7 +25,7 @@ export default function S3BucketList() {
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(text, "application/xml");
         const contents = xmlDoc.getElementsByTagName("Contents");
-
+        console.log(contents)
         for (let i = 0; i < contents.length; i++) {
           const key = contents[i].getElementsByTagName("Key")[0].textContent;
           if(key.split(".")[1] === 'json') {

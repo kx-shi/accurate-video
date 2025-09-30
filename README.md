@@ -11,3 +11,8 @@ Skapa waveform-fil
 ## python
 Skapa launch template
 `python .\generate_template.py --video_url {video_url}`
+
+## För att skapa en launchtemplate
+- Hämta .mp4
+- Konvertera till .wav (convert_mp4_to_wav.py)
+- Generera audiowaveform (generate_audiowaveform.py)

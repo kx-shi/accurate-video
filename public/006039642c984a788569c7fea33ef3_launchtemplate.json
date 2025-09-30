@@ -1,0 +1,85 @@
+{
+  "data": {
+    "assets": [
+      {
+        "id": "512e3c89-6743-43aa-86ae-51d49535e8f6",
+        "creationDate": "2025-09-30T14:17:20.355698Z",
+        "updateDate": "2025-09-30T14:17:20.355698Z",
+        "metadata": [
+          {
+            "key": "title",
+            "value": "006039642c984a788569c7fea33ef3"
+          }
+        ],
+        "files": [
+          {
+            "id": "93089ef7-3ce6-4331-b9ec-4cfc3a200336",
+            "type": "VIDEO",
+            "url": "https://multimedia-commons.s3-us-west-2.amazonaws.com/data/videos/mp4/006/039/006039642c984a788569c7fea33ef3.mp4",
+            "metadata": [
+              {
+                "key": "filename",
+                "value": "006039642c984a788569c7fea33ef3 (Video)"
+              },
+              {
+                "key": "language",
+                "value": "en"
+              }
+            ]
+          },
+          {
+            "id": "5aa7d2cc-5251-4650-bd8f-9969ea7dc903",
+            "type": "AUDIO",
+            "url": "https://multimedia-commons.s3-us-west-2.amazonaws.com/data/videos/mp4/006/039/006039642c984a788569c7fea33ef3.mp4",
+            "metadata": [
+              {
+                "key": "filename",
+                "value": "006039642c984a788569c7fea33ef3 (Audio)"
+              }
+            ],
+            "container": {
+              "audioStreams": [
+                {
+                  "channels": 2
+                }
+              ]
+            }
+          },
+          {
+            "type": "WAVEFORM",
+            "url": "https://accurate-video.s3.eu-north-1.amazonaws.com/006039642c984a788569c7fea33ef3/006039642c984a788569c7fea33ef3.dat",
+            "metadata": [
+              {
+                "key": "waveform:source_file_id",
+                "value": "93089ef7-3ce6-4331-b9ec-4cfc3a200336"
+              },
+              {
+                "key": "waveform:track",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "type": "WAVEFORM",
+            "url": "https://accurate-video.s3.eu-north-1.amazonaws.com/006039642c984a788569c7fea33ef3/006039642c984a788569c7fea33ef3.dat",
+            "metadata": [
+              {
+                "key": "waveform:source_file_id",
+                "value": "5aa7d2cc-5251-4650-bd8f-9969ea7dc903"
+              },
+              {
+                "key": "waveform:track",
+                "value": "0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": {
+    "publish": {
+      "download": true
+    }
+  }
+}
